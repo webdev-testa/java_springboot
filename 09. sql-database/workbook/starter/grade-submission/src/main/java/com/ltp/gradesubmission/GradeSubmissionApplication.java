@@ -55,7 +55,6 @@ public class GradeSubmissionApplication implements CommandLineRunner {
 		for (int i = 0; i < courses.length; i++) {
 			courseRepository.save(courses[i]);
 		}
- 
 	}
 
 }
